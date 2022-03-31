@@ -1,6 +1,6 @@
 public class exercicioUm {
     public static void main(String[] args) {
-        System.out.println("Segunda forma de apresentar os números pares de um a cem.");
+        System.out.println("Primeira forma de apresentar os números pares de um a cem.");
         
         for(int i = 0; i <= 100; i++){
             if(i % 2 == 0){
