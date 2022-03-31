@@ -8,25 +8,25 @@ public class exercicioQuatro {
         int n = leitor.nextInt();
         leitor.close();
         int i = 0;
-        do{
+        do {
             i++;
-            if(i % 2 == 0){
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
-        }while(i < n);
+        } while (i < n);
 
         System.out.println();
         i = 1;
-        while(i < n){
+        while (i < n) {
             ++i;
-            if(i % 2 == 0){
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }
-        
+
         System.out.println();
-        for(i = 1; i <= n; i++){
-            if(i % 2 == 0){
+        for (i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }

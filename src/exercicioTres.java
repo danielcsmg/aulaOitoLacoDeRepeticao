@@ -12,7 +12,7 @@ public class exercicioTres {
             ++i;
             System.out.println(i);
         }
-        
+
         System.out.println();
         for(i = 101; i <= 110; i++){
             System.out.println(i);
