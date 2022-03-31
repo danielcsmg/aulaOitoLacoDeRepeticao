@@ -1,13 +1,22 @@
 public class App {
     public static void main(String[] args) {
-        for(int i = 0; i < 10; ++i){
+        int i = 0;
+        for(;i < 10;){
             System.out.println(i);
+            ++i;
         }
 
-        int i = 0;
         while(i <= 15){
             System.out.println(i);
             i++;
+        }
+
+        while(true){
+            System.out.println("Oi");
+
+            if(true){
+                break;
+            }
         }
     }
 }
